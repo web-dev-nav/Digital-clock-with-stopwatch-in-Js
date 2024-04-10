@@ -1,0 +1,116 @@
+@font-face {
+    font-family: 'MyFont';
+    src: url('digital-reg.ttf') format('truetype') 
+  }
+  
+html{
+    background-color: #f3f4f6;
+}
+body {
+    border-top:8px solid #2196f3 ;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: white;
+    margin: 0 auto;
+    width: 400px;
+    box-shadow: 9px 10px 7px -3px rgba(0,0,0,0.1);
+    border-radius: 5px;
+    padding: 0 2em 1em;
+    margin-top: 100px;
+}
+h1 {
+    color: rgb(118, 118, 120);
+    text-align: center;
+}
+div {
+    margin-bottom: 1em;
+}
+label {
+    display: inline-block;
+    width: 11em;
+    text-align: right;
+}
+input {
+    margin-left: 1em;
+    margin-bottom: .5em;
+}
+fieldset {
+    margin-bottom: 1em;
+    color: rgb(159, 159, 159);
+    border-radius: 8px;
+}
+fieldset a, #seconds {
+    margin-right: 0.5em;
+}
+
+span{
+    font-family: 'MyFont', sans-serif;
+    color: rgb(155, 155, 155);
+}
+
+blockquote{
+    font-size: 12px;
+    padding: 5PX;
+    border-left:8px solid #2196f3 ;
+    font-family:Open Sans;
+    font-style:italic;text-align: center;
+    color: #555555;
+    background:#EDEDED;
+  }
+
+  .button {
+    border: none;
+    color: white;
+    padding: 5px;
+    margin: 4px 2px;
+    text-align: center;
+    display: inline-block;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 5px;
+     text-decoration: none;
+    transition-duration: 0.4s;
+    
+  }
+  .button1 {
+    background-color: white; 
+    color: black; 
+    border: 2px solid #4CAF50;
+  }
+  
+  .button1:hover {
+    background-color: #4CAF50;
+    color: white;
+  }
+
+  .button2 {
+    background-color: white; 
+    color: black; 
+    border: 2px solid #f4322b;
+  }
+  
+  .button2:hover {
+    background-color: #ef1d1d;
+    color: white;
+  }
+
+  .button3 {
+    background-color: white; 
+    color: black; 
+    border: 2px solid #e9e51a;
+  }
+  
+  .button3:hover {
+    background-color: #f1e61c;
+    color: white;
+  }
+
+  .left {
+    background-color: #4CAF50;
+    color: rgb(255, 255, 255);
+    padding: 8px;
+    float: left;
+    font-size: 12px;
+    border-radius: 5px;
+    text-decoration: none;
+  }
+  
